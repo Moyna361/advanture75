@@ -1,0 +1,313 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto;
+
+}
+
+img {
+    max-width: 100%;
+
+}
+header {
+    background-image: url("../imgs/dawn.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    padding: 0 50px 0 50px;
+    color: white;
+    background-blend-mode: multiply;
+    background-color: #000000c9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    right: 5%;
+    left: 5%;
+    margin-top: 20px;
+}
+
+
+.logo a h3 {
+    font-size: 24px;
+
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav ul li a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 0 0 0 20px;
+    text-transform: capitalize;
+}
+ 
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+/* banner section */
+
+.banner {
+    text-align: center;
+    padding: 50px 0 100px 0;
+}
+
+.banner h3 {
+    font-size: 31px;
+    font-style: italic;
+    margin-top: 128px;
+}
+
+.banner h1{
+    
+
+    margin: 50px;
+    font-size: 66px;
+}
+
+.banner button{
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+
+    height: 50px;
+    width: 185px;
+    border: red;
+    font-size: 20px;
+   
+    letter-spacing: 4px;
+    font-weight: 550;
+    margin: 0 0 50px 0;
+    transition: all 0.3s linear;
+}
+.banner button:hover {
+    background-color: rgba(255, 0, 0, 0);
+    letter-spacing: 6px;
+    border: red;
+    
+     
+}
+.banner span {
+    height: 5px;
+    width: 180px;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    
+    border-radius: 10px;
+}
+
+
+
+/* event main section */
+
+
+.even-main {
+    padding: 60px 15%;
+
+
+}
+.even-main h2 {
+    font-size: 37px;
+   
+
+
+}
+.even-up {
+    text-align: center;
+
+}
+.even-main span {
+    height: 5px;
+    width: 180px;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    border-radius: 10px;
+    
+
+}
+.even {
+    display: flex;
+    margin-top: 30px;
+}
+.even-items {
+    
+    width: 50%;
+    margin: 14px;
+    text-align: center;
+
+}
+.even-items img {
+
+    height: 360px;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+.even-items h3 {margin-top: 27px;font-size: 20px;}
+.even-items p {margin-top: 24px;}
+.even-items a {margin-top: 23px;display: inline-block;text-decoration: none;letter-spacing: 4px;color: red;}
+
+
+
+
+
+.event-items {
+    width: 50%;
+    margin: 15px;
+    height: 210px;
+} 
+
+/* explore section */
+
+.explore {
+    background-image: url("../imgs/father.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 50px;
+    color: white;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 255, 0.463);
+   display: flex;
+   justify-content: space-between;
+    
+
+}
+
+.explore-items {
+    width: 50%;
+
+}
+.explore-items h1 {
+    font-size: 66px;
+    margin-top: 36px;
+
+}
+.explore-items span {
+    height: 5px;
+    width: 180px;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    
+    border-radius: 10px;
+}
+
+.explore-items p {
+    margin-top: 23px;
+
+} 
+.explore-items a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 64px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    font-weight: 600;
+
+}
+
+
+
+
+/* tour- section` */
+
+.tour-main {
+    margin: 100px;
+    border-radius: 0px;
+
+}
+.tour {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.tour-items {
+    width: 33%;
+    margin: 13px;
+
+}
+.tour-items h3 {
+    font-size: 30px;
+
+}
+.tour-items span {
+    height: 5px;
+    width: 180px;
+    color: white;
+    background-color: red;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.tour-items p {
+    margin: 31px 15px 0 0;
+
+}
+.tour-items a {
+    display: inline-block;
+    margin-top: 31px;
+
+}
+.tour-One {
+    height: 300px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+.tour-Two {
+    height: 380px;
+    object-fit: cover;
+    margin-bottom: 20px;
+
+}
+
+
+
+/* footer section */
+
+
+.footer-container {
+    background-color: black;
+    height: 260px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content i {
+    
+    font-size: 34px;
+    margin: 9px;
+    margin-bottom: 13px;
+
+}
+
+.footer-content p {
+    margin-bottom: 100px;
+}
+
