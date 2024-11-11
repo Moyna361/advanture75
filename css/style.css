@@ -401,7 +401,7 @@ footer {
    }
    .even-items {
     
-    width: 75vh;
+    width: 72vh;
     margin: 14px;
     text-align: center;
 
@@ -492,23 +492,7 @@ footer {
     font-size: 12px;
     
 }
-
-/* === footer section === */
-
-/* .footer p {
-    display: block;
-    font-size: 5px;
-    color: white;
-    
 }
-
-.footer-container {
-    height: 250px;
-    width: 100%;
-    background-color: black;
-} */
-
-
 
 
 
