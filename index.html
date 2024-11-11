@@ -19,11 +19,11 @@
     
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">about</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="#">Take Action</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#even-main">about</a></li>
+                    <li><a href="#explore">Blog</a></li>
+                    <li><a href="#tour-main">Contact</a></li>
+                    <li><a href="#footer-container">Take Action</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,7 +45,7 @@
     <!-- upcoming section -->
 
     <section>
-        <div class="even-main">
+        <div id="even-main" class="even-main">
             <div class="even-up">
                 <h2>UPCOMING EVENTS</h2>
             <span></span>
@@ -81,7 +81,7 @@
     <!-- Exporl section -->
 
     <section>
-        <div class="explore">
+        <div id="explore" class="explore">
             <div class="explore-items">
                
             </div>
@@ -102,7 +102,7 @@
     <!-- destination section -->
 
     <section>
-        <div class="tour-main">
+        <div id="tour-main" class="tour-main">
             <div class="tour">
                 <div class="tour-items">
                     <h3>UPCOMING TOURS & <br> DESTINATION
@@ -128,7 +128,7 @@
 
     <!-- footer section -->
 
-    <section class="footer-container">
+    <section id="footer-container" class="footer-container">
         <div class="footer-content">
             <i class="fa-brands fa-facebook" style="color: white;"></i>
             <i class="fa-solid fa-dove" style="color: white;"></i>
@@ -139,6 +139,19 @@
             <p style="color: white;">Copywirte 2024 by ali some text will be go here</p>
         </div>
     </section>
+
+
+
+<script>
+        window.addEventListener('scroll', function() {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {  
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    </script>
     
 </body>
 </html>

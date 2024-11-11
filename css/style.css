@@ -5,6 +5,9 @@
     font-family: Roboto;
 
 }
+html {
+    scroll-behavior: smooth;
+}
 
 img {
     max-width: 100%;
@@ -19,7 +22,9 @@ header {
     padding: 0 50px 0 50px;
     color: white;
     background-blend-mode: multiply;
-    background-color: #000000c9;
+    background-color: rgba(0, 0, 0, 0.694);
+   
+    margin: 0 0 0 0;
 }
 
 .navbar {
@@ -29,8 +34,21 @@ header {
     position: fixed;
     right: 5%;
     left: 5%;
-    margin-top: 20px;
+    margin-top: 0px;
+    background-color: transparent;
+    transition: all 0.3s;
+    z-index: 1000;
+      
 }
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.8);
+    right: 0%;
+    left: 0%;
+    height: 100px;
+    
+    
+}
+
 
 
 .logo a h3 {
@@ -148,7 +166,7 @@ nav ul li a {
 }
 .even {
     display: flex;
-    margin-top: 30px;
+    padding: 0 0 0 0;
 }
 .even-items {
     
@@ -310,4 +328,5 @@ nav ul li a {
 .footer-content p {
     margin-bottom: 100px;
 }
+
 
